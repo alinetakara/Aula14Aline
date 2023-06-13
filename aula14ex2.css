@@ -1,0 +1,39 @@
+#grade {
+    display: grid;
+    grid-template-areas:
+      "nav nav header header header"
+      "nav nav content content aside"
+      "footer footer content content final";
+    grid-template-rows: auto; 
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+
+ }
+ .border {
+    border: 1px solid black;
+ }
+ 
+ header {
+    grid-area: header;
+ }
+ footer {
+    grid-area: footer;
+ }
+ section#content {
+    grid-area: content;     
+ }
+
+ nav {
+    grid-area: nav;
+ }
+
+ final {
+    grid-area: final;
+ }
+ 
+ aside {
+    grid-area: aside;
+ }
+
+ 
