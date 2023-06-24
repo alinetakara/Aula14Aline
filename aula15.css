@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "content"
+    "sidebar";
+}
+
+header {
+    height: 50px;
+    grid-area: header;
+    background-color: pink;
+    margin: 5px;
+}
+
+ .content {
+    height: 200px;
+    grid-area: content;
+    background-color: pink;
+    margin: 5px;
+ }
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: pink;
+    margin: 5px;
+ }
+
+ @media only screen and (min-width: 1024px) {
+    .container {
+        grid-template-areas: 
+        "header header header"
+        "content content sidebar";
+    }
+}
