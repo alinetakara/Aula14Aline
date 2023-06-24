@@ -1,0 +1,45 @@
+.pai-flex{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 5px solid red
+}
+
+.filho1{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 5px rebeccapurple dotted;
+}
+
+.filho2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 5px rebeccapurple dotted;
+}
+
+.filho3{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 5px rebeccapurple dotted;
+}
+
+.filho4{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 5px rebeccapurple dotted;
+}
+
+.filho5{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 5px rebeccapurple dotted;
+}
